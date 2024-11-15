@@ -4,7 +4,7 @@ import numpy as np
 
 # load the data
 test_set = pd.read_csv("../src/test_set.csv", index_col=0)
-url = "http://127.0.0.1:8989/predict_testset"
+url = "http://0.0.0.0:8989/predict_testset"
 
 # replace np.nan with None values
 test_set.replace(np.nan, None, inplace=True)
