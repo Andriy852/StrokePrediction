@@ -1,0 +1,9 @@
+.idea/
+dataset/
+stroke_virtualenv/
+src/__pycache__/
+src/.ipynb_checkpoints/
+src.pytest_cache/
+src/test_set.csv
+src/train_set.csv
+.DS_Store
