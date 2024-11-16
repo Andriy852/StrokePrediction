@@ -8,3 +8,4 @@ src/test_set.csv
 src/train_set.csv
 .DS_Store
 deployment/__pycache__/
+utils/__pycache__/
