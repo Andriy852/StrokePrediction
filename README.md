@@ -45,9 +45,10 @@ It achieved:
   * 76% recall
   * 12% precision
   * 21% f1-score 
+  * 81% ROC AUC
   
-  As this model has the highest ROC AUC, we can adjust 
-  the threshold to balance the above metrics.
+  The model's performance has improved significantly compared to the baseline. With a ROC AUC of 0.81, our model outperforms the baseline by 0.1, indicating a substantial enhancement in its ability to distinguish between stroke and non-stroke cases.
+
 * **Feature importance**: **Age** has turned out to be the most
 determining feature in our model. Almost all people,
 who have had stroke, are older than 30 years old. 
